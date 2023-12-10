@@ -47,7 +47,7 @@
 describe('Expense App', () => {
   before(() => {
     cy.eyesOpen({
-      appName: 'Expense App',
+      appName: 'personal-budget',
       apiKey: 'Epwm3p103Nefx63sGMeSql0NjmoVpCIV6SLFJro0fU1071g110',
     });
   });

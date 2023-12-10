@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ExpenseService {
-  private apiUrl = 'http://localhost:3000';
+  private apiUrl = 'http://18.226.222.124:3000';
 
   constructor(private http: HttpClient) {}
   token = localStorage.getItem('token');
