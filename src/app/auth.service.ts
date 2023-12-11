@@ -16,7 +16,7 @@ import { Router } from '@angular/router';
 })
 export class AuthService {
   private isAuthenticatedSubject: BehaviorSubject<boolean>;
-  private apiUrl = 'http://18.226.222.124:3000';
+  private apiUrl = 'http://3.145.178.204:3000';
   private dialogRefer: MatDialogRef<TokenExpiryComponent> | undefined;
 
   constructor(
