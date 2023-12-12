@@ -1,3 +1,7 @@
+# Sample User with some data inserted
+username: "rash"
+password: "pwd1234"
+
 # PersonalBudget
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
